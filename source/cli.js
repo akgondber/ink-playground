@@ -34,5 +34,5 @@ const options = program.opts();
 // 	},
 // );
 const {target} = options;
-console.log(options);
+
 render(<App target={options.target} />);
